@@ -65,6 +65,6 @@ RUN \
 
 COPY root/ /
 
-EXPOSE 80 443
+EXPOSE 9382:80 443
 
 VOLUME /config
